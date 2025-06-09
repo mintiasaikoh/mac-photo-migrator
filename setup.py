@@ -3,7 +3,7 @@ Setup script for Mac Photo Migrator app
 """
 from setuptools import setup
 
-APP = ['scripts/migrate_photos_gui.py']
+APP = ['start.py']
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': False,
