@@ -1,54 +1,54 @@
-# リリースガイド
+# Release Notes
 
-## v1.0.0 - 初回リリース 🎉
+## v1.0.0 - Mac Photos to Windows 🎉
 
-### リリース内容
+### About This Release
 
-Mac Photo Migrator v1.0.0をリリースしました！
+**Mac Photos to Windows v1.0.0** is now available!
 
-このアプリケーションは、Macの写真.appライブラリからWindowsへ、メタデータ（EXIF情報、位置情報、撮影日時）を保持したまま写真を移行するためのツールです。
+This application transfers photos from Mac Photos app to Windows while preserving all metadata (EXIF information, location data, and timestamps).
 
-### 主な機能
+### Key Features
 
-- 📸 **メタデータ保持**: EXIF情報、撮影日時、GPS位置情報を維持
-- 📁 **自動整理**: 年/月フォルダで自動分類
-- 🖼️ **HEIC対応**: HEIC形式のまま保存（Windows 10/11対応）
-- 🎨 **使いやすいGUI**: グラフィカルインターフェースで簡単操作
-- 📊 **進捗表示**: リアルタイムで処理状況を確認
-- 📝 **詳細レポート**: 移行結果をJSON形式で保存
+- 📸 **Metadata Preservation**: Maintains EXIF info, timestamps, and GPS location data
+- 📁 **Auto-organization**: Automatically sorts photos into Year/Month folders
+- 🖼️ **HEIC Support**: Keeps HEIC format intact (compatible with Windows 10/11)
+- 🎨 **User-friendly GUI**: Simple graphical interface for easy operation
+- 📊 **Progress Display**: Real-time processing status updates
+- 📝 **Detailed Reports**: Saves migration results in JSON format
 
-### ダウンロード方法
+### Download
 
-1. [Releases](https://github.com/mintiasaikoh/mac-photo-migrator/releases)ページにアクセス
-2. 最新のリリース（v1.0.0）を選択
-3. Assets欄から`Mac.Photo.Migrator.app.zip`をダウンロード
+1. Visit the [Releases](https://github.com/mintiasaikoh/mac-photo-migrator/releases) page
+2. Download `Mac.Photos.to.Windows.v1.0.0.zip` (23.2MB)
+3. Extract and run the app
 
-### インストール方法
+### Installation
 
-1. ダウンロードしたZIPファイルを解凍
-2. `Mac Photo Migrator.app`をApplicationsフォルダにドラッグ
-3. 初回起動時は右クリック→「開く」で起動
+1. Extract the downloaded ZIP file
+2. Drag `Mac Photos to Windows.app` to your Applications folder
+3. Right-click and select "Open" for first launch
 
-### システム要件
+### System Requirements
 
-- macOS 10.15 Catalina以降
-- 十分なストレージ容量（写真ライブラリの2倍程度を推奨）
+- macOS 10.15 Catalina or later
+- Sufficient storage space (approximately 2x your photo library size recommended)
 
-### 既知の問題
+### Known Issues
 
-- 初回起動時にセキュリティ警告が表示される場合があります
-- 大量の写真（10,000枚以上）の処理には時間がかかります
+- Security warning may appear on first launch
+- Processing large libraries (10,000+ photos) may take several hours
 
-### 今後の予定
+### Coming Soon
 
-- HEIC→JPEG自動変換オプション
-- バッチ処理の最適化
-- Windows版の開発
+- HEIC to JPEG auto-conversion option
+- Batch processing optimization
+- Windows version development
 
-### フィードバック
+### Feedback
 
-問題や機能要望がありましたら、[Issues](https://github.com/mintiasaikoh/mac-photo-migrator/issues)でお知らせください。
+Please report issues or feature requests at [Issues](https://github.com/mintiasaikoh/mac-photo-migrator/issues).
 
 ---
 
-**注意**: このアプリケーションを使用する前に、必ず写真ライブラリのバックアップを取ってください。
+**Note**: Always backup your photo library before using this application.
