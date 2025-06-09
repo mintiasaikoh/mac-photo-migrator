@@ -42,3 +42,12 @@ test_library/
 
 # Personal data
 migration_report*.json
+
+# Build files
+build/
+dist/
+*.spec
+
+# PyInstaller
+*.manifest
+*.pkg

@@ -354,7 +354,10 @@ class PhotoMigratorGUI:
             self.log(f"\n重大なエラーが発生しました: {e}")
             self.queue.put(('done', None))
 
-if __name__ == "__main__":
+def main():
     root = tk.Tk()
     app = PhotoMigratorGUI(root)
     root.mainloop()
+
+if __name__ == "__main__":
+    main()
