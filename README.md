@@ -1,16 +1,16 @@
-# Mac Photo Migrator
+# Mac Photos to Windows
 
 <div align="center">
-  <h1>Mac写真移行ツール</h1>
-  <p>Macの写真.appライブラリからWindowsへ、メタデータを保持したまま写真を移行</p>
+  <h1>Mac Photos to Windows</h1>
+  <p>Transfer photos from Mac Photos app to Windows with complete metadata preservation</p>
   
   [![GitHub release](https://img.shields.io/github/v/release/mintiasaikoh/mac-photo-migrator)](https://github.com/mintiasaikoh/mac-photo-migrator/releases)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Platform](https://img.shields.io/badge/platform-macOS-blue.svg)](https://www.apple.com/macos/)
   
   <p>
-    <strong>最新バージョン: v1.0.0</strong> | 
-    <a href="https://github.com/mintiasaikoh/mac-photo-migrator/releases/latest">ダウンロード (23.2MB)</a>
+    <strong>Latest Version: v1.0.0</strong> | 
+    <a href="https://github.com/mintiasaikoh/mac-photo-migrator/releases/latest">Download (23.2MB)</a>
   </p>
 </div>
 

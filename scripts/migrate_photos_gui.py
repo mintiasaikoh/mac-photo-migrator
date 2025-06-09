@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mac写真.app → Windows 移行ツール GUI版（HEIC変換なし）
+Mac Photos to Windows Migration Tool - GUI Version (No HEIC Conversion)
 """
 
 import tkinter as tk
@@ -18,7 +18,7 @@ import piexif
 class PhotoMigratorGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Mac写真 → Windows 移行ツール")
+        self.root.title("Mac Photos to Windows")
         self.root.geometry("800x600")
         
         # 変数
