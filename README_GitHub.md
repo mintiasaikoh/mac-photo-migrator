@@ -20,7 +20,7 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/yourusername/mac-photo-migrator.git
+git clone https://github.com/mintiasaikoh/mac-photo-migrator.git
 cd mac-photo-migrator
 
 # 必要なパッケージをインストール
@@ -127,4 +127,4 @@ MIT License
 
 ## 📧 サポート
 
-問題が発生した場合は、[Issues](https://github.com/yourusername/mac-photo-migrator/issues)で報告してください。
+問題が発生した場合は、[Issues](https://github.com/mintiasaikoh/mac-photo-migrator/issues)で報告してください。
