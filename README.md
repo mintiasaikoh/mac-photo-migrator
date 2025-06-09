@@ -3,6 +3,9 @@
 <div align="center">
   <h1>Mac写真移行ツール</h1>
   <p>Macの写真.appライブラリからWindowsへ、メタデータを保持したまま写真を移行</p>
+  
+  [![GitHub release](https://img.shields.io/github/v/release/mintiasaikoh/mac-photo-migrator)](https://github.com/mintiasaikoh/mac-photo-migrator/releases)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
 ## ✨ 特徴
@@ -16,7 +19,14 @@
 
 ## 🚀 インストール
 
-### 方法1: ソースコードから実行
+### 方法1: macOSアプリとして実行（推奨）
+
+1. [最新リリース](https://github.com/mintiasaikoh/mac-photo-migrator/releases)からアプリをダウンロード
+2. ダウンロードしたDMGファイルを開く
+3. アプリをApplicationsフォルダにドラッグ
+4. アプリを起動（初回起動時は右クリック→開くを選択）
+
+### 方法2: ソースコードから実行
 
 ```bash
 # リポジトリをクローン
