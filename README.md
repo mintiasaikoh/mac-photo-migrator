@@ -6,6 +6,12 @@
   
   [![GitHub release](https://img.shields.io/github/v/release/mintiasaikoh/mac-photo-migrator)](https://github.com/mintiasaikoh/mac-photo-migrator/releases)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Platform](https://img.shields.io/badge/platform-macOS-blue.svg)](https://www.apple.com/macos/)
+  
+  <p>
+    <strong>最新バージョン: v1.0.0</strong> | 
+    <a href="https://github.com/mintiasaikoh/mac-photo-migrator/releases/latest">ダウンロード (23.2MB)</a>
+  </p>
 </div>
 
 ## ✨ 特徴
@@ -19,12 +25,15 @@
 
 ## 🚀 インストール
 
-### 方法1: macOSアプリとして実行（推奨）
+### 方法1: リリース版アプリを使用（推奨）
 
-1. [最新リリース](https://github.com/mintiasaikoh/mac-photo-migrator/releases)からアプリをダウンロード
-2. ダウンロードしたDMGファイルを開く
-3. アプリをApplicationsフォルダにドラッグ
-4. アプリを起動（初回起動時は右クリック→開くを選択）
+1. [最新リリース](https://github.com/mintiasaikoh/mac-photo-migrator/releases/latest)から`Mac.Photo.Migrator.app.zip`をダウンロード
+2. ダウンロードしたZIPファイルを解凍
+3. `Mac Photo Migrator.app`をApplicationsフォルダにドラッグ
+4. アプリを起動（初回起動時は右クリック→「開く」を選択）
+
+> **注意**: macOSのセキュリティ機能により、初回起動時は警告が表示されます。  
+> システム環境設定 > セキュリティとプライバシー で許可するか、右クリック→「開く」で起動してください。
 
 ### 方法2: ソースコードから実行
 
@@ -40,14 +49,22 @@ pip install -r requirements.txt
 python scripts/migrate_photos_gui.py
 ```
 
-### 方法2: macOSアプリとして実行（開発中）
+### 方法3: ソースコードからアプリをビルド
 
 ```bash
-# アプリをビルド
-python setup.py py2app
+# リポジトリをクローン
+git clone https://github.com/mintiasaikoh/mac-photo-migrator.git
+cd mac-photo-migrator
 
-# アプリを実行
-open dist/Mac\ Photo\ Migrator.app
+# 必要なパッケージをインストール
+pip install -r requirements.txt
+pip install pyinstaller
+
+# PyInstallerでアプリをビルド
+pyinstaller --onefile --windowed --name "Mac Photo Migrator" scripts/migrate_photos_gui.py
+
+# ビルドされたアプリを実行
+open "dist/Mac Photo Migrator.app"
 ```
 
 ## 📖 使い方
@@ -96,9 +113,11 @@ OUTPUT_PATH = "/Volumes/SUNEAST/photo"  # 移行先
 
 ## 🛠️ 必要な環境
 
-- macOS 10.15以降
-- Python 3.7以降
+- macOS 10.15 Catalina以降
+- Python 3.7以降（ソースコードから実行する場合）
 - 写真.appのライブラリへのアクセス権限
+
+> **注意**: リリース版のアプリ（.app）を使用する場合、Pythonのインストールは不要です。
 
 ## 📦 依存パッケージ
 
@@ -130,6 +149,14 @@ pip install -r requirements.txt --upgrade
 ## 📄 ライセンス
 
 MIT License
+
+## 🚀 リリース履歴
+
+- **v1.0.0** (2025-06-09) - 初回リリース
+  - GUI版アプリケーション
+  - メタデータ保持機能
+  - 年/月フォルダ自動整理
+  - HEIC形式サポート
 
 ## 🤝 貢献
 
